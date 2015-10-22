@@ -1,0 +1,10 @@
+# pip required packages file
+# Processed by build.sh into a virtualenv in build/venv
+# http://www.pip-installer.org/en/latest/requirements.html
+
+sqlalchemy == 0.9.7
+tornado == 4.0.2
+psycopg2 == 2.5.4
+configparser == 3.5.0b1
+requests == 2.4.1
+future == 0.13.1

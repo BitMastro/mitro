@@ -1,0 +1,13 @@
+{% extends "master.txt" %}
+
+{% block content %}
+{{ sender_email }} has given you access to an account using {{ service }}, a brilliant solution for access control for teams. To access it, create a new account with the following information:
+
+
+Email address: {{ recipient_email }}
+Temporary password: {{ temp_password }}
+
+
+Create Account:
+{{ login_url }}
+{% end %}
